@@ -1,0 +1,5 @@
+package com.example.agroguide_bd
+
+import io.flutter.embedding.android.FlutterActivity
+
+class MainActivity : FlutterActivity()
