@@ -12,7 +12,7 @@ class MarketScreen extends StatelessWidget {
     return SafeArea(
       child: Column(
         children: [
-          const AppTopBar(title: 'Market Prices'),
+          const AppTopBar(title: 'Market Prices Test'),
           Expanded(
             child: SingleChildScrollView(
               padding: const EdgeInsets.all(16),
