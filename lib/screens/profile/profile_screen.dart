@@ -4,6 +4,7 @@ import '../../widgets/app_top_bar.dart';
 import '../feedback/feedback_screen.dart';
 import '../helpline/helpline_screen.dart';
 import '../expert/expert_question_screen.dart';
+import '../../data/user_session.dart';
 
 class ProfileScreen extends StatelessWidget {
   const ProfileScreen({super.key});
@@ -35,8 +36,8 @@ class ProfileScreen extends StatelessWidget {
                       Column(
                         crossAxisAlignment: CrossAxisAlignment.start,
                         children: [
-                          Text('কৃষক ভাই', style: TextStyle(fontSize: 19, fontWeight: FontWeight.w800)),
-                          Text('টাঙ্গাইল • ধান চাষ'),
+                          Text(UserSession.name, style: const TextStyle(fontSize: 19, fontWeight: FontWeight.w800)),
+Text(UserSession.location),
                         ],
                       ),
                     ],
